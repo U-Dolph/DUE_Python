@@ -22,7 +22,7 @@ def power(base: float) -> FunctionType:
     :return:
     """
     def currying_function(power: float ) -> float:
-        return math.pow(base,power)
+        return math.pow(base, power)
     return currying_function
 
 
